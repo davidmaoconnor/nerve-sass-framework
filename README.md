@@ -9,7 +9,9 @@ git clone or download into your directory
 ## Usage
 
 cd into directory with command line
-```sass --watch src/scss/main.scss:dist/css/main.css```
+```bash
+sass --watch src/scss/main.scss:dist/css/main.css
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
