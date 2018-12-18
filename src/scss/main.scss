@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+//Abstracts
+@import 'abstracts/mixins';
+
+//Layout
+@import 'layout/grid';
+@import 'layout/navigation';
+
+//Base
+@import 'base/typography';
+
+//Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/lists';
+@import 'components/code';
+@import 'layout/footer';
+
+// The size of padding will not be added to the size of the box
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  @extend %responsive-image;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #777;
+  color: white;
+}

@@ -1,0 +1,25 @@
+$button-base-color:  #0074D9;
+
+.button {
+    background-color: #0074D9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 200px;
+    transition-duration: 0.2s;
+}
+
+.button:hover, button:hover, .button:focus, button:focus {
+  background: darken($button-base-color, 15%);
+  border-color: #111111;
+  outline: 0;
+}

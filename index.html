@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Framework</title>
+
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Fonts and Icons-->
+    <link href="https://fontlibrary.org/face/open-baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- User Styles -->
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="topnav" id="myTopnav">
+        <div class="container">
+            <div class="left">
+                <img src="src/images/logo.svg" class="brand" alt="Brand logo">
+            </div>
+            <div class="right">
+                <a href="#first" class="active">First</a>
+                <a href="#second">Second</a>
+                <a href="#third">Third</a>
+                <a href="#fourth">Fourth</a>
+                <a href="#fifth">Fifth</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="content">
+
+        <div class="container">
+            <h1 class="text-center">Hello, World!</h1>
+            <p class="text-center">Lorem ipsum dolor sitadipisicing elit.</p>
+            <a href="#" class="button">Click Me</a>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="column left-edge justify">
+                    <h2 class="text-center">Everybody</h2>
+                    <h4 class="text-center">Lorem ipsum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur illum est quam sit error?
+                        Iusto accusantium commodi id voluptate temporibus assumenda excepturi cumque architecto iure ex
+                        quasi laboriosam vel, itaque qui similique dignissimos! Ratione quisquam aut nobis voluptate
+                        dolorem fugiat, id, exercitationem sapiente, dolor aliquam mollitia explicabo numquam.</p>
+                </div>
+                <div class="column center justify">
+                    <h2 class="text-center">Squirrels</h2>
+                    <h4 class="text-center">Lorem ipsum dolor sit</h4>
+                    <img src="src/images/squirrel.jpg" alt="Squirrel">
+                </div>
+                <div class="column right-edge justify">
+                    <h2 class="text-center">Everybody</h2>
+                    <h4 class="text-center">Lorem ipsum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur illum est quam sit error?
+                        Iusto accusantium commodi id voluptate temporibus assumenda excepturi cumque architecto iure ex
+                        quasi laboriosam vel, itaque qui similique dignissimos! Ratione quisquam aut nobis voluptate
+                        dolorem fugiat, id, exercitationem sapiente, dolor aliquam mollitia explicabo numquam.</p>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <h2 class="text-center">Form</h2>
+            <form>
+                <div class="row">
+                    <div class="half column left-edge">
+                        <label for="exampleEmailInput">Your email</label>
+                        <input class="full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                    </div>
+                    <div class="half column right-edge">
+                        <label for="exampleRecipientInput">Reason for contacting</label>
+                        <select class="full-width" id="exampleRecipientInput">
+                            <option value="Option 1">Questions</option>
+                            <option value="Option 2">Admiration</option>
+                            <option value="Option 3">Can I get your number?</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+                </div>
+                <label>
+                    <input type="checkbox" class="inline" name="yah" id="yah">
+                    <span class="label-body inline">Send a copy to yourself</span>
+                </label>
+                <input class="button" type="submit" value="Submit">
+            </form>
+
+            <!-- Unordered List -->
+            <h2 class="text-center">Unordered List</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Minima quo deleniti veritatis explicabo!</li>
+                <li>Soluta eos sequi cumque maiores!</li>
+            </ul>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row footer-menu">
+                    <ul>
+                        <li><a href="#">First</a></li>
+                        <li><a href="#">Second</a></li>
+                        <li><a href="#">Third</a></li>
+                        <li><a href="#">Fourth</a></li>
+                        <li><a href="#">Fifth</a></li>
+                    </ul>
+                    <div class="right">
+                        <img src="src/images/logo.svg" alt="Brand logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column one">
+                        <p class="text-center footer-copyright">This framework is licensed under the <a href="#">MIT License</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="src/js/main.js"></script>
+</body>
+
+</html>

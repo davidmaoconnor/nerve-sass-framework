@@ -1,0 +1,47 @@
+$footer-padding: 25px;
+$footer-background: #333;
+
+footer {
+    padding: $footer-padding;
+    background: $footer-background;
+    margin-top: 50px;
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 0;
+
+        li {
+
+            a {
+                text-decoration: none;
+                color: #f2f2f2;
+            }
+
+        }
+        
+        li:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    img {
+        width: 32px;
+    }
+
+    p {
+        color:rgb(158, 158, 158);
+
+        a {
+            color:rgb(158, 158, 158);
+        }
+    }
+}
+
+.footer-menu {
+    padding-top: 20px;
+}
+
+.footer-copyright {
+    margin-bottom: 0px;
+}
+

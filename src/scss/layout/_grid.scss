@@ -1,0 +1,78 @@
+$column-padding : 20px;
+$container-padding: 0 50px;
+$container-width: 1200px;
+$four-k-container-width: 1600px;
+
+.container {
+    margin: 0 auto;
+    padding: $container-padding;
+    @include respond-to('800') {
+      max-width: $container-width;
+    }
+    @include respond-to('4K') {
+      max-width: $four-k-container-width;
+    }
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.column {
+    flex-basis: 100%;
+    @include respond-to('800') {
+      flex: 1;
+  }
+}
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+@media only screen and (min-width: 800px) {
+  .left-edge {
+      padding-right: $column-padding;
+  }
+
+  .right-edge {
+      padding-left: $column-padding;
+  }
+
+  .center {
+      padding: 0 10px;
+  }
+
+  .one {
+    width: 100%;
+  }
+
+  .half {
+    width: calc(100% / 2);
+  }
+
+  .one-third {
+    width: calc(100% / 3);
+  }
+
+  .one-fourth {
+    width: calc(100% / 4);
+  }
+
+  .two-thirds {
+    width: calc(100% / 3 * 2);
+  }
+}
+
+  
