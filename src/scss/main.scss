@@ -3,19 +3,20 @@
 //Abstracts
 @import 'abstracts/mixins';
 
+//Base
+@import 'base/typography';
+@import 'base/colors';
+
 //Layout
 @import 'layout/grid';
 @import 'layout/navigation';
-
-//Base
-@import 'base/typography';
+@import 'layout/footer';
 
 //Components
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/lists';
 @import 'components/code';
-@import 'layout/footer';
 
 
 // The size of padding will not be added to the size of the box

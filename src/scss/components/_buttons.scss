@@ -1,9 +1,7 @@
-$button-base-color:  #0074D9;
-
 .button {
-    background-color: #0074D9; /* Green */
+    background-color: $button-base-color;
     border: none;
-    color: white;
+    color: $button-text-color;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
