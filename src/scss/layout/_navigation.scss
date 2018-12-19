@@ -68,3 +68,10 @@ float: none;
 display: block;
 text-align: left;
 }
+
+// Add an active class to Navigation
+
+.active {
+  background-color: #777;
+  color: white;
+}

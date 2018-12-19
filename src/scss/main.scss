@@ -17,6 +17,7 @@
 @import 'components/code';
 @import 'layout/footer';
 
+
 // The size of padding will not be added to the size of the box
 
 html {
@@ -29,10 +30,4 @@ html {
 
 img {
   @extend %responsive-image;
-}
-
-/* Add an active class to highlight the current page */
-.active {
-  background-color: #777;
-  color: white;
 }
