@@ -144,7 +144,7 @@ body {
 .brand {
   width: 32px;
   position: absolute;
-  top: 1.3%;
+  top: 1.6%;
 }
 @media (min-width: 1800px) {
   .brand {
@@ -163,7 +163,7 @@ body {
 .topnav a {
   display: inline-block;
   color: #f2f2f2;
-  padding: 14px 16px;
+  padding: 15px 16px;
   text-decoration: none;
   font-size: 17px;
   transition: 0.2s;

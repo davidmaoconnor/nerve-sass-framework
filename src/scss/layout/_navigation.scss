@@ -2,7 +2,7 @@
 .brand {
   width: 32px;
   position: absolute;
-  top: 1.3%;
+  top: 1.6%;
   @include respond-to('4K') {
     top: 0.75%;
   }
@@ -19,7 +19,7 @@
 .topnav a {
   display: inline-block;
   color: $top-navbar-link-color;
-  padding: 14px 16px;
+  padding: 15px 16px;
   text-decoration: none;
   font-size: 17px;
   transition: 0.2s;
